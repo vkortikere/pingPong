@@ -21,6 +21,11 @@ var ball = {
     dx:3,
     dy:3
 }
+rightWristY = 0;
+rightWristX = 0;
+scoreRightWrist = 0;
+
+game_status = "";
 
 function setup(){
   var canvas =  createCanvas(700,600);
